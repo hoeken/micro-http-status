@@ -2,7 +2,7 @@
     "name": "micro-http-status",
     "version": "1.0.0",
     "description": "A helper library to check for HTTP status responses and translate them to their names.",
-    "keywords": "http http-status-code http-status-codes http-statuscodes http-status http-status-message",
+    "keywords": "http-status-code http-status http-status-message",
     "repository": {
         "type": "git",
         "url": "https://github.com/rzeldent/micro-http-status"

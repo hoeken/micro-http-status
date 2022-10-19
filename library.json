@@ -1,0 +1,19 @@
+{
+    "name": "micro-http-status",
+    "version": "1.0.0",
+    "description": "A helper library to check for HTTP status responses and translate them to their names.",
+    "keywords": "http status names reason string http_success http_failure 200 201 401 404",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rzeldent/micro-http-status"
+    },
+    "authors": [
+        {
+            "name": "Rene Zeldenthuis",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "*",
+    "platforms": "*"
+}

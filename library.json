@@ -1,6 +1,6 @@
 {
     "name": "micro-http-status",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A helper library to check for HTTP status responses and translate them to their names.",
     "keywords": "http-status-code http-status http-status-message",
     "repository": {

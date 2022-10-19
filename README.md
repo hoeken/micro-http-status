@@ -16,7 +16,7 @@ Below the list of functions provided by this library
 
 Returns true if the response is informational (code >= 100 && code < 200)
 
-### **bool http_success(int code)**
+### bool http_success(int code)
 
 Returns true if the response is successful (code >= 200 && code < 300)
 
@@ -32,7 +32,7 @@ Returns true if the response is a client error (code >= 400 && code < 500)
 
 Returns true if the response is a server error (code >= 500 && code < 600)
 
-### **bool http_failure(int code)**
+### bool http_failure(int code)
 
 Returns true if the response indicates a client- or server error (code >= 400 && code < 600)
 

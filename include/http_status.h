@@ -34,15 +34,20 @@ static const char *http_status_group(int code)
 {
     if (http_informational(code))
         return "Informational";
+
     if (http_success(code))
         return "Success";
+
     if (http_redirection(code))
         return "Redirection";
+
     if (http_client_error(code))
         return "Client Error";
+
     if (http_server_error(code))
         return "Server Error";
-    return "";
+
+    return "Unknown";
 }
 
 static const char *http_status_reason(int code)
@@ -184,6 +189,6 @@ static const char *http_status_reason(int code)
         return "Network Authentication Required";
 
     default:
-        return "";
+        return "Unknown";
     }
 }

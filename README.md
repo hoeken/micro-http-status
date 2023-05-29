@@ -1,6 +1,6 @@
 # micro-http-status
 
-[![Platform IO CI](https://github.com/rzeldent/micro-miniz/actions/workflows/main.yml/badge.svg)](https://github.com/rzeldent/micro-miniz/actions/workflows/main.yml)
+[![Platform IO CI](https://github.com/rzeldent/micro-http-status/actions/workflows/main.yml/badge.svg)](https://github.com/rzeldent/micro-http-status/actions/workflows/main.yml)
 
 Library to check the HTTP status and translate to status names
 
